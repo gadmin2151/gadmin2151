@@ -1,0 +1,101 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="320"
+  viewBox="0 0 1200 320"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">
+    Gheorghe Pleșca — infrastructure and product architecture
+  </title>
+  <desc id="description">
+    A dark terminal-inspired banner with green accents and a diagram connecting
+    infrastructure, delivery and products.
+  </desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#193126" stroke-width="1" />
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d1117" />
+      <stop offset="1" stop-color="#10251a" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="20" fill="url(#fade)" />
+  <rect
+    x="710"
+    width="490"
+    height="320"
+    rx="20"
+    fill="url(#grid)"
+    opacity="0.65"
+  />
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="318"
+    rx="19"
+    fill="none"
+    stroke="#284034"
+  />
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <circle cx="44" cy="36" r="4" fill="#39c66d" />
+    <text x="60" y="41" fill="#a7c8b3" font-size="13" letter-spacing="2">
+      GADMIN2151 / BUILD LOG
+    </text>
+    <text x="1154" y="41" fill="#648b75" font-size="13" text-anchor="end">
+      ~/projects
+    </text>
+  </g>
+  <path d="M32 60H1168" stroke="#284034" />
+  <text
+    x="44"
+    y="126"
+    font-family="system-ui, -apple-system, Segoe UI, sans-serif"
+    fill="#f0f6fc"
+    font-size="48"
+    font-weight="700"
+    letter-spacing="-1.5"
+  >
+    Gheorghe Pleșca
+    <tspan fill="#39c66d">.</tspan>
+  </text>
+  <text
+    x="46"
+    y="166"
+    font-family="system-ui, -apple-system, Segoe UI, sans-serif"
+    fill="#b4c7bb"
+    font-size="20"
+  >
+    Infrastructure. Self-hosted software. Product architecture.
+  </text>
+  <g
+    font-family="ui-monospace, SFMono-Regular, Consolas, monospace"
+    font-size="14"
+  >
+    <text x="46" y="225" fill="#39c66d">$</text>
+    <text x="66" y="225" fill="#d4e5db">
+      design → build → deploy → maintain
+    </text>
+    <text x="46" y="282" fill="#7eaa91" font-size="12" letter-spacing="1.5">
+      LINUX / DOCKER / NETWORKS / WEB / ANDROID
+    </text>
+  </g>
+  <g fill="#10251a" stroke="#367650" stroke-width="1.5">
+    <rect x="854" y="94" width="254" height="46" rx="9" />
+    <rect x="854" y="174" width="254" height="46" rx="9" />
+    <rect x="854" y="254" width="254" height="38" rx="9" />
+    <path d="M981 140V174M981 220V254" />
+  </g>
+  <g
+    font-family="ui-monospace, SFMono-Regular, Consolas, monospace"
+    text-anchor="middle"
+    font-size="14"
+  >
+    <text x="981" y="122" fill="#d4e5db">01 / INFRASTRUCTURE</text>
+    <text x="981" y="202" fill="#d4e5db">02 / DELIVERY</text>
+    <text x="981" y="278" fill="#39c66d">03 / PRODUCTS</text>
+  </g>
+</svg>
